@@ -12,7 +12,7 @@
     "glob": "^8.1.0",
     "vite": "^4.5.2"
   },
-  "author": "Kseniya Borisova <ksenyuk.94@gmail.com>",
+  "author": "Kseniya Borysova <ksenyuk.94@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "simplelightbox": "^2.14.3",
