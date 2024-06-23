@@ -67,3 +67,72 @@ img {
 .gallery-image:hover {
   transform: scale(1.05);
 }
+
+.sl-overlay {
+  background-color: rgba(46, 47, 66);
+}
+
+.feedback-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 408px;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px dotted #808080;
+  border-radius: 8px;
+}
+
+.feedback-form label {
+  display: block;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  display: block;
+  margin: 8px 0;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+}
+
+.feedback-form input {
+  height: 40px;
+}
+
+.feedback-form textarea {
+  height: 80px;
+  resize: none;
+}
+
+.feedback-form input:hover,
+.feedback-form input:focus,
+.feedback-form textarea:hover,
+.feedback-form textarea:focus {
+  border: 1px solid #000000;
+  outline: none;
+}
+
+.feedback-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  border: none;
+
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.feedback-form button:hover,
+.feedback-form button:focus {
+  background-color: #6c8cff;
+}
