@@ -1,5 +1,3 @@
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
 
 const form = document.querySelector('.feedback-form');
 const emailInput = form.querySelector('input[name="email"]');
