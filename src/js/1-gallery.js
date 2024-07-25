@@ -73,15 +73,3 @@ captionDelay: 250,
 overlayOpacity: 0.8,
 });
 
-fetch("https://jsonplaceholder.typicode.com/users")
-  .then(response => {
-    // Response handling
-  })
-  .then(data => {
-    // Data handling
-  })
-  .catch(error => {
-    // Error handling
-  });
-
-
